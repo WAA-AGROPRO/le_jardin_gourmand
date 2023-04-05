@@ -1,0 +1,88 @@
+{
+    "title": "Les desserts",
+    "douceurs": [
+        {
+            "nom": "Tiramisu",
+            "description": "Aux spéculos",
+            "prix": "8 €"
+        },
+        {
+            "nom": "Millefeuille",
+            "description": "À la framboise",
+            "prix": "9 €"
+        },
+        {
+              "nom": "Crème brulée",
+              "description": "Aux foie gras",
+              "prix": "9 €"
+        },
+        {
+            "nom": "Le Café Gourmand du Jardin",
+            "description": "Déca, Thé ou Infusion",
+            "prix": "10 €"
+        },
+        {
+            "nom": "Le Champagne Gourmand du Jardin",
+            "description": "-",
+            "prix": "15 €"
+      }
+      ],
+      "glaces": [
+        {
+            "nom": "Une boule",
+            "description": "Parfum au choix",
+            "prix": "2.50 €"
+        },
+        {
+            "nom": "Deux boules",
+            "description": "Parfum au choix",
+            "prix": "5.50 €"
+        },
+        {
+            "nom": "Troix boules",
+            "description": "Parfum au choix",
+            "prix": "7.50 €"
+        }
+      ],
+      "coupes": [
+        {
+            "nom": "Dame blanches",
+            "description": "Meringue, Glace à la vanille, chantilly et chocolat chaud",
+            "prix": "7.50 €"
+        },
+        {
+            "nom": "Meringue",
+            "description": "Aux fruits rouges",
+            "prix": "8 €"
+        },
+        {
+              "nom": "Jardin Gourmand",
+              "description": "Clémentine, Fruits rouges, Fruits frais, Coco et Chantilly ",
+              "prix": "8 €"
+        }
+      ],
+      "sorbets": [
+        {
+            "nom": "Colonel",
+            "description": "Sorbet Citron et Vodka",
+            "prix": "8 €"
+        },
+        {
+            "nom": "Beaujolais",
+            "description": "Sorbet de Fruits rouges et Marc de Bourgogne",
+            "prix": "8 €"
+        },
+        {
+              "nom": "Williamine",
+              "description": "Sorbet Poire et alcool de poire",
+              "prix": "8 €"
+        },
+        {
+              "nom": "Dauphinoise",
+              "description": "Glace Chartreuse et Chartreuse Verte",
+              "prix": "8 €"
+        }
+      ]
+  }
+  
+ 

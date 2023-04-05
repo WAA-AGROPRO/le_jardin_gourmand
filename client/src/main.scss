@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
+
+/* === Variables principales === */
+$color-primary: #9356D8;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+
+/* === Variables à part === */
+$color-tertiary-2: #1B6150;
+$color-background-footer: #353535;
+$color-background-localisation: #F3F3F3;
+$color-background-menu: #F6F6F6;
+$color-background-title: #FAFAFA;
+$color-background-button: #686868;
+
+/* === Taille de polices=== */
+$localisation: 20px;
+$title: 25px;
+$text: 16px;
+$card-title: 20px;
+$submenu-title: 18px;
+$text-button: 18px;
+$price: 16px;
+
+$logo-header-mobile: 30px;
+$logo-header: 40px;
+$logo-footer: 20px;
+$resto-title: 20px;
+
+/* === La taille des icones === */
+$size-icon-map: 20px;
+$size-icon-fonctionnement: 15px;
+$size-icon-heart: 30px;
+$size-icon-arrow: 30px;
+$size-icon-mobile: 20px;
+
+
+
+@mixin police-apparence ($police, $color, $font-size) {
+    font-family: $police;
+    font-size: $font-size;
+    color: $color;
+}
+
+/* == Permet de changer 
+    la couleur et la taille d'une icone== */
+@mixin icon-apparence ($color ,$size) {
+    font-size: $size;
+    color: $color;
+}
+
+/* == Permet de mettre en colonne (flexbox)
+    met en place la position des éléments == */
+@mixin flex-use ($direction, $justify-content, $align-items) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}

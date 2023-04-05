@@ -1,0 +1,24 @@
+{
+    "title": "Entrées de saison",
+      "entrees": [
+        {
+          "nom": "Terrine de campagne au Beaujolais",
+          "description": "Et ses toasts grillés à l'ail et huile d'olive",
+          "prix": "16 €"
+        },{
+          "nom": "Duo de saumon - Gravlax et Saumon fumé",
+          "description": "Mesclun à l'huile d'olive et jus de citron vert",
+          "prix": "20.90 €"
+        },{
+            "nom": "Tomate mozzarella",
+            "description": "Des Jardins des Monts du Lyonnais",
+            "prix": "12.90 €"
+        },{
+            "nom": "Tartare d'écrevisses",
+            "description": "Aux fruits de la passion",
+            "prix": "21 €"
+        }
+      ]
+  }
+  
+  

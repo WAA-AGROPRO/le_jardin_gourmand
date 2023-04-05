@@ -1,0 +1,60 @@
+{
+  "title": "Plats de saison",
+    "viandes": [
+      {
+          "nom": "Coq au Morgon",
+          "description": "Et tagliatelles fraîches",
+          "prix": "22 €"
+      },
+      {
+          "nom": "Tournedos aux morilles",
+          "description": "Et pommes grenailles fondantes",
+          "prix": "33.90 €"
+      },
+      {
+            "nom": "Tajine de souris d'agneau",
+            "description": "Aux fruits secs",
+            "prix": "25.90 €"
+      },
+      {
+            "nom": "Burger",
+            "description": "À l'italienne",
+            "prix": "17 €"
+      }
+    ],
+    "poissons": [
+      {
+          "nom": "Saumon façon Rossini",
+          "description": "Sauce aux airelles",
+          "prix": "29 €"
+      },
+      {
+          "nom": "Dorade royale grillée",
+          "description": "Sur son lit de fenouil",
+          "prix": "25 €"
+      },
+      {
+          "nom": "Risotto aux belles St-Jacques",
+          "description": "Émulsion de bisque de homard et copeaux de parmesan",
+          "prix": "24.50 €"
+      }
+    ],
+    "grenouilles": [
+      {
+          "nom": "Grenouilles en persillade",
+          "description": "Ail, Persil et Beurre moussant légèrement citronné",
+          "prix": "28 €"
+        },
+        {
+          "nom": "Grenouilles aux amandes et champagnes",
+          "description": "Sauce crémeuse",
+          "prix": "33 €"
+        },
+        {
+          "nom": "Petite salade fraîcheur et pommes rustiques persillées",
+          "description": "En accompagnement avec les grenouilles",
+          "prix": "Accompagnement"
+        }
+    ]
+}
+

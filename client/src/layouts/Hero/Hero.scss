@@ -1,0 +1,64 @@
+.hero {
+    display: flex;
+    background-image: url(../../assets/img/hero-1.webp);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+    &__title {
+        font-size: 3.75rem;
+        font-weight: 700;
+        color: rgb(100, 143, 78);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    &__subtitle {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: rgb(185, 187, 51);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    &__content {
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    &__buttons {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+
+        &__button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 200px;
+            margin: 2%;
+            border-radius: 25px;
+            text-decoration: none;
+            background: rgb(85,119,68);
+background: linear-gradient(90deg, rgba(85,119,68,1) 0%, rgba(122,168,99,1) 52%, rgba(180,221,160,1) 100%);
+            color: #fff;
+
+            &:hover {
+                background: rgb(85,119,68);
+            }
+        }
+    }
+
+    
+}

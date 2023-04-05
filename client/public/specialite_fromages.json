@@ -1,0 +1,26 @@
+{
+  "title": "Spécialités fromagères",
+    "fromages": [
+      {
+          "nom": "Fromage blanc",
+          "description": "En faisselle (Nature, crème ou en coulis)",
+          "prix": "5 €"
+      },
+      {
+          "nom": "Croustillant de reblochon",
+          "description": "-",
+          "prix": "8 €"
+      },
+      {
+            "nom": "Demi Saint-Marcellin",
+            "description": "Et petite salade verte",
+            "prix": "8 €"
+      },
+      {
+            "nom": "Plateau de fromages",
+            "description": "De nos régions",
+            "prix": "9 €"
+      }
+    ]
+}
+

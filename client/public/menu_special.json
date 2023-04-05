@@ -1,0 +1,42 @@
+{
+    "date" : "09 Avril 2023",
+    "title": "Déjeuner de Pâques",
+    "prix":
+      {
+        "sans_boisson": "55 € pour un menu sans boisson",  
+        "a_emporter": "50 € pour un menu à emporter"
+      },
+      "mise_en_bouche": [
+        {
+          "nom": " Nid  de  patates  douces",
+          "description": "Aux  oeufs  de  caille",
+          "prix": 12.50
+        }],
+        "entrees": [
+          {
+            "nom": "Pâté Berrichon",
+            "description": "Le pâté de Pâques tradionnel",
+            "prix": 12.50
+          }
+        ],
+        "plats_principaux": [
+          {
+            "nom": "Tourtière d'agneau",
+            "description": "Printanier",
+            "prix": 22.00
+          },
+          {
+            "nom": "Parfait Risotto",
+            "description": "Aux Saint-Jacques et asperges",
+            "prix": 18.50
+          }
+        ],
+        "desserts": [
+          {
+            "nom": "Brioche perdue",
+            "description": "À la vanille",
+            "prix": 7.00
+          }
+        ]
+}
+

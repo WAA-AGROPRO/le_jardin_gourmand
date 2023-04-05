@@ -1,0 +1,34 @@
+{
+    "title": "Menu Végétalien",
+    "prix":
+    {
+        "par_personne": "30 € par personne"
+    },
+    "mise_en_bouche": [
+      {
+        "nom": "Mise en bouche gourmande",
+        "description": "du moment",
+        "prix": 12.50
+      }],
+      "entrees": [
+        {
+          "nom": "Velouté",
+          "description": "De potiron",
+          "prix": 12.50
+        }
+      ],
+      "plats_principaux": [
+        {
+          "nom": "Antipasti",
+          "description": "De légumes",
+          "prix": 22.00
+        }
+      ],
+      "desserts": [
+        {
+          "nom": "Assortiment de fruits frais",
+          "description": "avec un sorbet plein de fruits",
+          "prix": 7.00
+        }
+      ]
+  }

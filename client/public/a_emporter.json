@@ -1,0 +1,21 @@
+{
+    "title": "Suggestions à emporter",
+      "plats": [
+        {
+            "nom": "Terrine de foie gras maison",
+            "description": "Bouquet de salade, chutney de saison et toast grillé",
+            "prix": "16 €"
+        },
+        {
+            "nom": "Grenouilles ail et persil",
+            "description": "Et sa garniture",
+            "prix": "22 €"
+        },
+        {
+              "nom": "Grenouilles amandes et champagnes",
+              "description": "Et sa garniture",
+              "prix": "24 €"
+        }
+      ]
+  }
+  

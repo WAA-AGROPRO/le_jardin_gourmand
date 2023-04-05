@@ -1,0 +1,48 @@
+{
+  "title": "Menu Jardin Gourmand",
+  "prix":
+  {
+      "par_personne": "39 € par personne"
+  },
+  "mise_en_bouche": [
+    {
+      "nom": "Mise en bouche gourmande",
+      "description": "du moment",
+      "prix": 12.50
+    }],
+    "entrees": [
+      {
+        "nom": "Terrine de campagne au Beaujolais",
+        "description": "Et ses toasts grillés à l'ail et huile d'olive",
+        "prix": 12.50
+      },{
+        "nom": "Duo de saumon - Gravlax et Saumon fumé",
+        "description": "Mesclun à l'huile d'olive et jus de citron vert",
+        "prix": 12.50
+      },{
+        "nom": "Tomate mozzarella",
+        "description": "Des Jardins des Monts du Lyonnais",
+        "prix": 12.50
+      }
+    ],
+    "plats_principaux": [
+      {
+        "nom": "Coq au Morgon",
+        "description": "Et tagliatelles fraîches",
+        "prix": 22.00
+      },
+      {
+        "nom": "Risotto  aux  belles  gambas",
+        "description": "Émulsion de bisque de homard et copeaux de parmesan",
+        "prix": 18.50
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Déssert à la carte des douceurs",
+        "description": "Sauf Café gourmand et Champagne gourmand",
+        "prix": 7.00
+      }
+    ]
+}
+

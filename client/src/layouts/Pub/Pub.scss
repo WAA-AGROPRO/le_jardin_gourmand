@@ -1,0 +1,47 @@
+.pub {
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100%;
+        width: 50%;
+
+        &__price {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            height: 15%;
+            width: 90%;
+
+            &__p {
+                color: rgb(185, 187, 51);
+                font-size: 1.25rem;
+            }
+        }
+
+        &__title {
+            color: rgb(100, 143, 78);
+            display: flex;
+            align-items: center;
+            font-size: 1.75rem;
+            justify-content: center;
+            padding-top: 5%;
+            height: 5vh;
+        }
+
+        &__card {
+            display: flex;
+            padding-top: 5px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 85%;
+            width: 100%;
+        }
+    }
+}

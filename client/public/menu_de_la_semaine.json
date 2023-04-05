@@ -1,0 +1,46 @@
+{
+  "title": "Menu de la semaine",
+  "prix":
+  {
+      "sur_place": "21 € sur place",
+      "a_emporter": "18 € à emporter",
+      "livraison": "20 € en livraison"
+  },
+  "entrees": [
+    {
+      "nom": "Salade César",
+      "description": "Laitue romaine et parmesan et sauce césar",
+      "prix": 12.50
+    },
+    {
+      "nom": "Potage aux légumes",
+      "description": "Soupe de légumes frais de saison",
+      "prix": 8.50
+    }
+  ],
+  "plats_principaux": [
+    {
+      "nom": "Steak-frites",
+      "description": "Steak de boeuf grillé, frites maison et sauce poivre",
+      "prix": 22.00
+    },
+    {
+      "nom": "Poulet rôti",
+      "description": "Poulet fermier rôti et pommes de terre",
+      "prix": 18.50
+    }
+  ],
+  "desserts": [
+    {
+      "nom": "Crème brûlée",
+      "description": "Crème vanille caramélisée",
+      "prix": 8.50
+    },
+    {
+      "nom": "Tarte aux pommes",
+      "description": "Tarte fine aux pommes et glace vanille",
+      "prix": 7.00
+    }
+  ]
+}
+ 

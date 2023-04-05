@@ -1,0 +1,180 @@
+@import "../../main.scss";
+
+.about {
+    height: 50vh;
+
+
+    &__first {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__btn {
+        border: none;
+        cursor: pointer;
+        font-size: 1.35rem;
+        background-color: transparent;
+        margin-top: 2%;
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+    &__img {
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+        margin-right: 15%;
+    }
+
+    &__article {
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: rgb(100, 143, 78);
+    }
+
+    &__text {
+        text-align: justify;
+        font-size: 1.25rem;
+        padding-bottom: 20px;
+    }
+
+    &__inmodal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__ambiances {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__ambiance {
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
+.left-none {
+    margin-left: 0;
+}
+
+.btn-close {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 10%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+    .about {
+        margin-bottom: 20%;
+        height: 120vh;
+
+        &__first {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        &__img {
+            margin-right: 0;
+            width: 25%;
+        }
+
+        &__article {
+            margin-left: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__title {
+            padding: 10px;
+        }
+
+        &__text {
+            padding: 20px;
+            width: 80vw;
+            font-size: 1.5rem;
+        }
+
+        &__btn {
+            width: 100%;
+        }
+
+        &__inmodal {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about {
+        margin-bottom: 0;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        height: 120vh;
+
+        &__first {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        &__img {
+            margin-right: 0;
+            width: 40%;
+        }
+
+        &__article {
+            margin-left: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__title {
+            padding: 10px;
+        }
+
+        &__text {
+            padding: 2%;
+            width: 80vw;
+        }
+
+        &__btn {
+            width: 100%;
+        }
+
+        &__inmodal {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+}
+
+

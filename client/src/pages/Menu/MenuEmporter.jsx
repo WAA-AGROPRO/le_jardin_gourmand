@@ -10,7 +10,7 @@ function MenuEmporter() {
             <div className="menu-principale__container">
                 <MenuLink />
                 <section className="menu-principale__content">
-                    
+                   <PlatEmporter />
                 </section>
             </div>
         </div>

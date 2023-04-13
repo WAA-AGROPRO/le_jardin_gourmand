@@ -2,11 +2,11 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 
 import "./Plat.scss"
-function PlatDesserts() {
-    const [menu, setMenu] = useState({ title: '' , douceurs: [] , glaces: [] , coupes: [] , });
+function PlatSaison() {
+    const [menu, setMenu] = useState({ viandes: [], poissons: [], grenouilles: [] });
 
     useEffect(() => {
-        axios.get('les_desserts.json').then(result => { setMenu(result.data) }).catch(error => { console.log(error) });
+        axios.get('plats_de_saison.json').then(result => { setMenu(result.data) }).catch(error => { console.log(error) });
       }, []);
 
   return (
@@ -14,10 +14,9 @@ function PlatDesserts() {
       {menu && (
           <h2 className="menu-plat__title">{menu.title}</h2>
       )}
-      
       <div className="plats-principaux">
-        <h3>Douceurs</h3>
-        {menu && menu.douceurs.map(plat => (
+        <h3>Viandes</h3>
+        {menu && menu.viandes.map(plat => (
           <section className="plat plat--animation" key={plat.nom}>
           <div className="plat__info">
             <h4 className="plat__title">{plat.nom}</h4>
@@ -29,8 +28,8 @@ function PlatDesserts() {
         
       </div>
       <div className="plats-principaux">
-        <h3>Glaces</h3>
-        {menu && menu.glaces.map(plat => (
+        <h3>Poissons</h3>
+        {menu && menu.poissons.map(plat => (
           <section className="plat plat--animation" key={plat.nom}>
           <div className="plat__info">
             <h4 className="plat__title">{plat.nom}</h4>
@@ -42,8 +41,8 @@ function PlatDesserts() {
         
       </div>
       <div className="plats-principaux">
-        <h3>Coupes</h3>
-        {menu && menu.coupes.map(plat => (
+        <h3>Grenouilles</h3>
+        {menu && menu.grenouilles.map(plat => (
           <section className="plat plat--animation" key={plat.nom}>
           <div className="plat__info">
             <h4 className="plat__title">{plat.nom}</h4>
@@ -54,9 +53,8 @@ function PlatDesserts() {
         ))}
         
       </div>
-     
     </div>
   )
 }
 
-export default PlatDesserts
+export default PlatSaison

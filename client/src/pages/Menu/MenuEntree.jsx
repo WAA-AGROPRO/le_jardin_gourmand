@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuLink from '../../components/MenuLink/MenuLink'
+import PlatEntrees from '../../components/Plat/PlatEntrees'
 import "./Menu.scss"
 
 function MenuEntree() {
@@ -9,7 +10,7 @@ function MenuEntree() {
             <div className="menu-principale__container">
                 <MenuLink />
                 <section className="menu-principale__content">
-                    <h2 className="menu-principale__content__title">Bouffe</h2>
+                    <PlatEntrees />   
                 </section>
             </div>
         </div>

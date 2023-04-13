@@ -11,7 +11,6 @@ function Localisation() {
           <br />
           69480 Ambérieux
         </p>
-        <p className="loca">Image de la gélocalisation</p>
       </a>
     </div>
   )

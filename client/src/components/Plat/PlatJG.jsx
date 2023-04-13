@@ -25,6 +25,20 @@ function PlatJG() {
           <p className="menu-plat__price">{menu.prix.par_personne} </p>
         </section>  
       )}
+      <div className="miseEnBouche">
+        <h3>Mise en bouche</h3>
+        {menu.mise_en_bouche && menu.mise_en_bouche.map(entree => (
+          <section className="plat plat--animation" key={entree.nom}>
+          <div className="plat__info">
+            <h4 className="plat__title">{entree.nom}</h4>
+            <p className="plat__description">{entree.description}</p>
+          </div>  
+          <div className="plat__confirmation">
+            i
+          </div>
+        </section>
+        ))}
+      </div>
       <div className="entrees">
         <h3>Entrées</h3>
         {menu.entrees && menu.entrees.map(entree => (

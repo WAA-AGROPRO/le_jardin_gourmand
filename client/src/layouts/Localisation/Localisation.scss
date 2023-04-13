@@ -9,7 +9,7 @@
 
     &__container {
         box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-    
+
         padding: 20px;
         border-radius: 20px;
         width: 50%;
@@ -27,11 +27,14 @@
         &__title {
             padding: 10px;
             font-size: 25px;
+
         }
 
         &__text {
             padding: 10px;
             font-size: 18px;
+
+            color: black;
         }
 
     }

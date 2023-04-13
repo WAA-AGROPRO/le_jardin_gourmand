@@ -135,7 +135,6 @@ h3 {
     }
 
     &__confirmation {
-        background-color: $color-tertiary;
         margin: -16px -80px -16px -16px;
         width: 64px;
         @include flex-use (row, center, center);

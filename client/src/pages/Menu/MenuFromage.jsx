@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuLink from '../../components/MenuLink/MenuLink'
+import PlatFromages from '../../components/Plat/PlatFromages'
 import "./Menu.scss"
 
 function MenuFromage() {
@@ -9,7 +10,7 @@ function MenuFromage() {
             <div className="menu-principale__container">
                 <MenuLink />
                 <section className="menu-principale__content">
-                    <h2 className="menu-principale__content__title">Bouffe</h2>
+                    <PlatFromages />
                 </section>
             </div>
         </div>

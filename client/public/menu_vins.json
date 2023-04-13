@@ -1,0 +1,299 @@
+{
+    "title": "Les vins",
+    "beaujolais": [
+        {
+            "nom": "Morgon 37,5",
+            "description": "Château Gaillard",
+            "prix": "19 €"
+        },
+        {
+            "nom": "Morgon 75 CL",
+            "description": "Château Gaillard",
+            "prix": "30 €"
+        },
+        {
+            "nom": "Brouilly 75 CL",
+            "description": "",
+            "prix": "30 €"
+        },
+        {
+            "nom": "Fleurie 75 CL",
+            "description": "",
+            "prix": "32 €"
+        },
+        {
+            "nom": "Saint-Amour 75 CL",
+            "description": "",
+            "prix": "32 €"
+        },
+        {
+            "nom": "Moulin à Vent 75 CL",
+            "description": "",
+            "prix": "34 €"
+        }
+    ],
+    "bourgogne": [
+        {
+            "nom": "Givry 1er cru 37,5 CL",
+            "description": "Domaine Thenard",
+            "prix": "23 €"
+        },
+        {
+            "nom": "Givry 1er cru 75 CL",
+            "description": "Domaine Thenard",
+            "prix": "40 €"
+        },
+        {
+            "nom": "Mercurey Vieille Vigne",
+            "description": "Domaine Brintet",
+            "prix": "42 €"
+        },
+        {
+            "nom": "Chorey les Beaune",
+            "description": "Domaine Nuiton Beaunoy",
+            "prix": "46 €"
+        },
+        {
+            "nom": "Chassagne Montrachet 1er Cru",
+            "description": "Domaine Belland",
+            "prix": "49 €"
+        },
+        {
+            "nom": "Santenay 1er cru",
+            "description": "Domaine Rousseau",
+            "prix": "53 €"
+        },
+        {
+            "nom": "Pommard",
+            "description": "Domaine Devaux",
+            "prix": "59 €"
+        }
+    ],
+    "valdeloire": [
+        {
+            "nom": "St-Nicolas de Bourgueil 37,5 Cl",
+            "description": "Domaine Lorieux",
+            "prix": "20 €"
+        },
+        {
+            "nom": "St-Nicolas de Bourgueil 75 Cl",
+            "description": "Domaine Lorieux",
+            "prix": "30 €"
+        }
+    ],
+    "valleedurhone": [
+        {
+            "nom": "Pot de Côtes du Rhône",
+            "description": "25 cl - 46 cl",
+            "prix": "9 € - 14 €"
+        },
+        {
+            "nom": "Pot de Reméage (Vin de Vienne)",
+            "description": "25 cl - 46 cl",
+            "prix": "11 € - 17 €"
+        },
+        {
+            "nom": "Rasteau",
+            "description": "Domaine Martin Médaille d'Or",
+            "prix": "36 €"   
+        },
+        {
+            "nom": "Vacqueyras",
+            "description": "Domaine du grand Montmirail",
+            "prix": "37 €"
+        },
+        {
+            "nom": "Crozes Hermitage Petite Ruche",
+            "description": "Maison Chapoutier",
+            "prix": "37 €"
+        },
+        {
+            "nom": "Saint Joseph 37.5 CL Méribets",
+            "description": "Domaine Vallet",
+            "prix": "24 €"
+        },
+        {
+            "nom": "Saint Joseph 75 CL Méribets",
+            "description": "Domaine Vallet",
+            "prix": "39 €"
+        },
+        {
+            "nom": "Chateauneuf du Pape",
+            "description": "Domaine Mayard",
+            "prix": "52 €"
+        },
+        {
+            "nom": "Saint-Joseph",
+            "description": "La Cuvée du Papy Stéphane Montez",
+            "prix": "56 €"
+        },
+        {
+            "nom": "Côte Rôtie",
+            "description": "Domaine Faury",
+            "prix": "69 €"
+        }
+    ],
+    "languedocetcotesdeprovence": [
+        {
+            "nom": "Côtes du Roussillon",
+            "description": "Bila-Haut CHAPOUTIER",
+            "prix": "36 €"
+        },
+        {
+            "nom": "Côteaux du Languedoc",
+            "description":"Prestige - Château Puech Haut",
+            "prix": "42 €"
+        }
+    ],
+    "bordeaux": [
+        {
+            "nom": "Saint-Estèphe",
+            "description": "Château Beau Site",
+            "prix": "42 €"
+        },
+        {
+            "nom": "Pressac Léognan",
+            "description": "Château d'Alix",
+            "prix": "42 €"
+        },
+        {
+            "nom": "Saint-Emilion Grand Cru",
+            "description": "Château Tour de Pressac",
+            "prix": "44 €"
+        },
+        {
+            "nom": "Pauillac Cru Bourgeois",
+            "description": "Château Haut Bages Monpelou",
+            "prix": "47 €"
+        }
+    ],
+    "blancs": [
+        {
+            "nom": "Pot Macon Villages",
+            "description": "25 cl - 46 cl",
+            "prix": "10 € - 16 €"
+        },{
+            "nom": "Beaujolais Blanc",
+            "description": "Domaine Oedoria - Instant Bon' Oeur",
+            "prix": "24 €"
+        },{
+            "nom": "Viognier Côtes",
+            "description": "Catalanes",
+            "prix": "26 €"
+        },{
+            "nom": "Saint-Véran - Domaine Maurat",
+            "description": "37,5 cl - 75 cl",
+            "prix": "20 € - 31 €"
+        },{
+            "nom": "Chablis Grains Dorés",
+            "description": "Domaine Garnier",
+            "prix": "37 €"
+        },{
+            "nom": "Pouilly Fumé",
+            "description": "Le Grand Plateau",
+            "prix": "36 €"
+        },{
+            "nom": "Côteaux du Layon",
+            "description": "Château Soucherie",
+            "prix": "37 €"
+        },{
+            "nom": "Saint-Joseph",
+            "description": "Domaine Méribets",
+            "prix": "39 €"
+        },{
+            "nom": "Santenay Comme Dessus",
+            "description": "Domaine Belland",
+            "prix": "42 €"
+        },{
+            "nom": "Rully - La Perche",
+            "description": "Domaine Belleville",
+            "prix": "44 €"
+        },{
+            "nom": "Meursault Cuvée Saint-Jean",
+            "description": "Domaine Latour",
+            "prix": "59 €"
+        },{
+            "nom": "Condrieu",
+            "description": "Domaine Faury",
+            "prix": "63 €"
+        }
+    ],
+    "roses": [
+        {
+            "nom": "Pot de Rosé",
+            "description": "25 cl - 46 cl",
+            "prix": "9 € - 14 €"
+        },{
+            "nom": "Côtes de Provence*",
+            "description": "Terres des Anges - 50 cl",
+            "prix": "22 €"
+        },{
+            "nom": "Côtes de Roussillon Miraflor",
+            "description": "Domaine Lafage",
+            "prix": "26 €"
+        },{
+            "nom": "Côtes de Provence Cru classé",
+            "description": "Domaine de l'Aumérade - 75 cl",
+            "prix": "3 €"
+        },{
+            "nom": "Château Puech Haut Cuvée Prestige",
+            "description": "Côteaux du Languedoc",
+            "prix": "39 €"
+        },{
+            "nom": "Côtes de Provence",
+            "description": "Minuty Prestige",
+            "prix": "44 €"
+        },{
+            "nom": "MAGNUM Côtes de Provence",
+            "description": "Irrésistible - Domaine de la croix cru classé",
+            "prix": "55 €"
+        }
+    ],
+    "champagnes": [
+        {
+            "nom": "La coupe Champagne Brut",
+            "description": "10 cl",
+            "prix": "9 €"
+        },{
+            "nom": "La coupe Champagne Rosé",
+            "description": "10 cl",
+            "prix": "9,50 €"
+        },{
+            "nom": "Nicolas Feuillate Brut",
+            "description": "Bouteille",
+            "prix": "49 €"
+        },{
+            "nom": "Nicolas Feuillate Rosé",
+            "description": "Bouteille",
+            "prix": "53 €"
+        },{
+            "nom": "Emile Leclere",
+            "description": "Cuvée Bicentenaire Brut",
+            "prix": "51 €"
+        },{
+            "nom": "Grosset Brut",
+            "description": "Excellence",
+            "prix": "63 €"
+        },{
+            "nom": "Deutz Brut",
+            "description": "Classic",
+            "prix": "69 €"
+        },{
+            "nom": "Drapier",
+            "description": "Millesime Exception 2011",
+            "prix": "75 €"
+        },{
+            "nom": "Bollinger",
+            "description": "Spécial Cuvée",
+            "prix": "94 €"
+        },{
+            "nom": "Crémant de Bourgogne - Oedoria",
+            "description": "12 cl - Bouteille",
+            "prix": "7 € - 32 €"
+        },{
+            "nom": "Méthode traditionnelle - Perle Noire Rosé",
+            "description": "Louis Bouillot",
+            "prix": "32 €"
+        }
+    ]
+}

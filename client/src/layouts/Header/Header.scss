@@ -1,74 +1,130 @@
-.header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    height: 10vh;
-    background-color: #fff;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    position: fixed;
+@import "../../main.scss";
 
-    &__social {
-        display: flex;
-        align-items: center;
-        height: 100%; 
-        
-        &__link {
-            padding: 0 10px;
-        }
-    }
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    margin: 0;
+    height: 10vh;
 
     &__logo {
-        display: flex;
-        align-items: center;
-        height: 100%;
         font-size: 20px;
         font-weight: 700;
-        color: #000;
+        color: rgb(72, 71, 71);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-decoration: none;
     }
 
-    &__nav {
+    &__links {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        width: 50%;
+    }
 
-        &__list {
-            display: flex;
-            align-items: center;
-            height: 100%;
-            margin: 0;
-            list-style: none;
-            padding-right: 5%;
+    &__item {
 
-            &__item {
-                display: flex;
-                align-items: center;
-                height: 100%;
-                margin: 0 10px;
-                padding: 0 10px;
-                font-size: 16px;
-                font-weight: 500;
-                color: #000;
-                text-decoration: none;
-                border-bottom: 2px solid transparent;
-                transition: border-bottom 0.2s ease-in-out;
+        list-style-type: none;
+    }
 
-                &__link {
+    &__link {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        padding: 0 0.8rem;
+    }
 
-                    text-decoration: none;
-                    color: #000;
-                    &:hover {
-                        color: rgb(102, 171, 98);
-                    }
-                }
+    &__burger {
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: none;
+
+    }
+}
+.social {
+    display: flex;
+    align-items: center;
+
+    &__link {
+        padding: 5%;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        
+        &__links {
+            background: white;
+            flex-direction: column;
+            justify-content: center;
+            position: fixed;
+            right: -100vw;
+            bottom: 0;
+            height: 100vh;
+            padding: 2rem;
+            visibility: hidden;
+        }
+        &__link {
+            display: block;
+            padding: 1.5rem;
+            font-size: 5vw;
+            color: black;
+        }
+
+        &__burger {
+            display: block;
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+
+            &:hover {
+                cursor: pointer;
             }
         }
     }
 
+    .burger-bar,
+    .burger-bar::before,
+    .burger-bar::after {
+        display: block;
+        width: 40px;
+        height: 4px;
+        position: relative;
+        border-radius: 5px;
+        background: black;
+    }
+
+    .show .nav__links {
+        width: 95vw;
+        right: 0;
+        visibility: visible;
+    }
+    .burger-bar::before,
+    .burger-bar::after {
+        content: "";
+        position: absolute;
+        left: 0;
+
+    }
+    .burger-bar::before {
+       transform: translateY(-12px);
+    }
+
+    .burger-bar::after {
+        transform: translateY(12px);
+    }
+
+    .white {
+        background: white;
+    }
+
+    .black {
+        background: black;
+    }
 
 }
+

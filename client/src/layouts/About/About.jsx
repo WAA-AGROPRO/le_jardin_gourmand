@@ -44,21 +44,21 @@ function About() {
             <article className="about__ambiance">
             <h3 className="about__ambiance-title">Traditionnelle</h3>
               <p className="about__ambiance-text">Ambiance cosy en pierres dorées typiques de la région</p>
-              <div className="about__ambiance-img">img</div>
+            
             </article>
             <article className="about__ambiance">
             <h3 className="about__ambiance-title">Moderne</h3>
               <p className="about__ambiance-text">Avec un piano bar, sonorisation et jeux de lumières</p>
-              <div className="about__ambiance-img">img</div>
+   
             </article>
             <article className="about__ambiance">
             <h3 className="about__ambiance-title">En terrasse</h3>
               <p className="about__ambiance-text">Dans un décor estival</p>
-              <div className="about__ambiance-img">img</div>
+             
             </article>
           </section>
           <section className="about__second">
-        <button className='about__btn goudy' onClick={openModal}>
+        <button className='about__btn' onClick={openModal}>
           <FontAwesomeIcon icon={faArrowRight} size="1x" />
           {` `}
            En savoir plus ...</button>

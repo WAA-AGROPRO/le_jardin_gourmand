@@ -37,7 +37,7 @@ return (
           <p className="plat__description">{entree.description}</p>
         </div>  
         <div className="plat__confirmation">
-          i
+          
         </div>
       </section>
       ))}
@@ -51,7 +51,7 @@ return (
           <p className="plat__description">{plat.description}</p>
         </div>  
         <div className="plat__confirmation">
-          i
+          
         </div>
       </section>
       ))}
@@ -65,7 +65,7 @@ return (
           <p className="plat__description">{dessert.description}</p>
         </div>  
         <div className="plat__confirmation">
-          i
+          
         </div>
       </section>
       ))}

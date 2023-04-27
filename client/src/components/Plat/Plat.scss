@@ -37,6 +37,7 @@ h3 {
         padding-top: 25px;
         padding-bottom: 25px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 15px;
@@ -86,13 +87,12 @@ h3 {
 
 .plat {
     background-color: #fff;
-    width: 500px;
+    width: 350px;
     padding: 16px;
     display: flex;
     border-radius: 12px;
     margin: 16px 0;
-    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-    max-width: 100%;
+    position: relative;
 
     &--animation {
         overflow: hidden;
@@ -165,5 +165,7 @@ h3 {
     } 
 }
 
-
+.plats-principaux {
+    margin-top: 40px;
+}
 

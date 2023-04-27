@@ -47,14 +47,39 @@
 .social {
     display: flex;
     align-items: center;
+    margin-left: 30%;
 
     &__link {
-        padding: 5%;
+        padding: 15%;
 
     }
 }
 
+@media screen and (min-width: 992px) {
+    .nav__params {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav__link:hover {
+        color: #9cd33f;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
+    .social {
+        margin-left:0;
+
+        &__link {
+            padding: 5%;
+        }
+    }
     .nav {
         
         &__links {

@@ -1,5 +1,4 @@
 .menu-principale {
-    height: 150%;
     padding-top: 12vh;
     padding-bottom: 5vh;
     display: flex;
@@ -15,24 +14,41 @@
     }
 
     &__container {
-        border: 1px solid #000;
         border-radius: 25px;
         display: flex;
-        height: 100%;
-        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+.menu-principale {
+    padding-top: 12vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;    
+        color: rgb(100, 143, 78);
+    }
+
+    &__container {
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
     }
 
     &__links {
-        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    &__content {
-        width: 60%;
-    }
 
 
+}
 }

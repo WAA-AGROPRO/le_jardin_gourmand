@@ -1,5 +1,7 @@
 .footer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: auto;
     background-color: #ffffff;
     padding: 20px 0;
@@ -21,6 +23,13 @@
             display: flex;
             flex-direction: column;
             padding: 5%;
+
+            &__number {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #999;
+                margin-bottom: 5%;
+            }
         }
     }
 

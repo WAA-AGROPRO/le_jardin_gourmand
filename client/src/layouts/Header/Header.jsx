@@ -15,12 +15,18 @@ function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const handleLinkClick = (e) => {
+    toggleMenu();
+  };
+
   
 
   return (
     <nav className={`nav ${isMenuOpen ? "show" : "hide"}`}>
         <Link to={"/"} className="nav__logo">Le Jardin Gourmand</Link>
           <ul className="nav__links">
+            <div className="nav__params">
             <li className="nav__item">
               <a href="https://www.thefork.fr/restaurant/le-jardin-gourmand-r1722" className="nav__link">Réservation</a>
             </li>
@@ -28,8 +34,9 @@ function Header() {
               <a href="https://lejardin-gourmand.byclickeat.fr/order" className="nav__link">Livraison</a>
             </li>
             <li className="nav__item">
-              <Link to={"menu"} className="nav__link">Menu</Link>
+              <Link to={"menu"} className="nav__link" onClick={handleLinkClick}>Menu</Link>
             </li>
+            </div>
             <section className="social">
           <a href="https://www.facebook.com/lejardingourmand.amberieux" target="_blank" className="social__link">
             <FBLogo /> 

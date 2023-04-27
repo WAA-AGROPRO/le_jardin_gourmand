@@ -17,25 +17,20 @@ function Footer() {
           <p className="footer__left__container__number">
             +33 4 74 67 09 06
           </p>
-          <section className="header__social">
-        <a href="https://fr-fr.facebook.com/" className="header__social__link" target="_blank">
+          <section className="social">
+        <a href="https://fr-fr.facebook.com/" className="social__link" target="_blank">
           <FBLogo /> 
         </a>  
-        <a href="https://www.instagram.com/?hl=fr" className="header__social__link" target="_blank">
+        <a href="https://www.instagram.com/?hl=fr" className="social__link" target="_blank">
           <InstaLogo />
         </a>
-        <a href="https://www.instagram.com/?hl=fr" className="header__social__link" target="_blank">
+        <a href="https://www.instagram.com/?hl=fr" className="social__link" target="_blank">
           <TikTokLogo />
         </a>
           </section>
         </div>
       </section>
-      <section className="footer__right">
-        <h2 className="footer__left__title">
-          Inscription à la Newsletter
-        </h2>
-        <NewsletterForm />
-      </section>
+     
     </footer>
   )
 }

@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     width: auto;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     padding: 20px 0;
     text-align: center;
     color: #999;
@@ -12,9 +12,42 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        &__title {
+            color: #991;
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            padding: 5%;
+        }
     }
 
     &__right {
         width: 50%;
+        height: 30vh;
+    }
+}
+
+.social {
+    margin-right:30px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        
+        &__left {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        &__right {
+            width: 100%;
+        }
     }
 }
